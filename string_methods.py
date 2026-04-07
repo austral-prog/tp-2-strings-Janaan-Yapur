@@ -15,7 +15,7 @@ def string_methods():
     print(f"Lower: {frase.lower()}")
     print(f"Title: {frase.title()}")
     print(f"Find: {frase.find("gran")}")
-    print(f"Replace: {frase.replace("programacion", "desarrollo")}")
+    print(f"Replace: {frase.replace('programacion', 'desarrollo')}")
     print(f"Count: {frase.count('a')}")
     print(f"Contiene Python: {"Python" in frase}")
     print(f"Contiene Java: {"Java" in frase}")
