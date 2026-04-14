@@ -4,8 +4,23 @@ def check_vowels():
     """
     nombre = input()
     minusculas = (nombre.lower())
-    print(f"Contiene a: {'a' in minusculas}")
-    print(f"Contiene e: {'e' in minusculas}")
-    print(f"Contiene i: {'i' in minusculas}")
-    print(f"Contiene o: {'o' in minusculas}")
-    print(f"Contiene u: {'u' in minusculas}")
+    if "a" in minusculas:
+        print(f"Contiene a: True")
+    elif "a" not in minusculas:
+        print(f"Contiene a: False")
+    if "e" in minusculas:
+        print(f"Contiene e: True")
+    elif "e" not in minusculas:
+        print(f"Contiene e: False")
+    if "i" in minusculas:
+            print(f"Contiene i: True")
+    elif "i" not in minusculas:
+            print(f"Contiene i: False")
+    if "o" in minusculas:
+        print(f"Contiene o: True")
+    elif "o" not in minusculas:
+        print(f"Contiene o: False")
+    if "u" in minusculas:
+        print(f"Contiene u: True")
+    elif "u" not in minusculas:
+        print(f"Contiene u: False")
