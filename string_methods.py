@@ -4,7 +4,7 @@ def string_methods():
     f-strings y strings multilínea.
     """
 
-    nombre = " Grace Hopper "
+    nombre = "   Grace Hopper   "
     frase = "Python es un gran lenguaje de programacion"
     multilinea = """Linea 1
 Linea 2
